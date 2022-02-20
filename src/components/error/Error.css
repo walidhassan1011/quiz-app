@@ -1,0 +1,26 @@
+.error {
+  width: 80%;
+  background-color: #ff675c;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  padding: 10px;
+}
+.error span {
+  margin-left: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+.error p {
+  font-size: 20px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  line-height: 30px;
+  margin-left: 10px;
+}

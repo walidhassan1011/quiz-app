@@ -1,0 +1,80 @@
+.card-frame {
+  background-color: blueviolet;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.card-frame h1 {
+  text-transform: capitalize;
+  line-height: 100px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.score-category {
+  /* background-color: aqua; */
+  border: 3px solid blue;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-transform: capitalize;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+.question-frame {
+  /* background-color: black; */
+  width: 100%;
+  height: 70%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.question {
+  width: 100%;
+  height: 40%;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid blue;
+  /* background-color: blue; */
+}
+.answers {
+  width: 100%;
+  height: 60%;
+
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  /* background-color: brown; */
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.answer-frame {
+  width: 40%;
+  height: 30%;
+  margin: 10px;
+  cursor: pointer;
+  border: 3px solid aqua;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  font-size: 1rem;
+  padding: 10px;
+  font-weight: 500;
+  /* line-height: 30px; */
+  /* letter-spacing: 2px; */
+}
+.question span {
+  color: aliceblue;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
