@@ -9,8 +9,8 @@
   align-items: center;
 }
 .wrap3 {
-  background-color: aqua;
-  height: 100vh;
+  /* background-color: aqua; */
+  height: 99vh;
   width: 700px;
   display: flex;
   justify-content: center;
