@@ -1,4 +1,4 @@
-.main2 {
+.main-results {
   background-image: url(https://raw.githubusercontent.com/piyush-eon/Reactjs-Quiz-App/master/public/ques1.png);
   min-height: 100vh;
   background-position: top;
@@ -7,19 +7,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.wrap3 {
-  /* background-color: aqua; */
-  height: 99vh;
-  width: 700px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   flex-direction: column;
 }
-
-.wrap3 .name {
-  /* background-color: aqua; */
+.main-results h1 {
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-transform: capitalize;
+}
+.main-results button {
+  margin: 20px;
   padding: 10px;
-  margin: 10px;
+  width: 350px;
+  border-radius: 20px;
+  outline: none;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-weight: 700;
 }

@@ -3,8 +3,10 @@ import { useHistory } from "react-router-dom";
 import axios from "axios";
 const Forecast = createContext();
 function ForecastProvider({ children }) {
+  const [loading, setloading] = useState(false);
   const [name, setname] = useState("");
   const [category, setcategory] = useState("");
+  const [score, setscore] = useState(0);
   const [categoryName, setcategoryName] = useState("");
   const [difficulty, setdifficulty] = useState("");
   const [questions, setquestions] = useState();
@@ -14,15 +16,19 @@ function ForecastProvider({ children }) {
   const [error, seterror] = useState(false);
   const handlerequest = async () => {
     if (name !== "" && category !== "" && difficulty !== "") {
+      setscore(0);
+      setloading(true);
       seterror(false);
-      console.log(category);
+
       const { data } = await axios.get(
         `https://opentdb.com/api.php?amount=10&category=${category}&difficulty=${difficulty}&type=multiple`
       );
-
+      setloading(true);
       setquestions(data.results);
-
-      history.push("/quiz");
+      if (data.results.length !== 0) {
+        setloading(false);
+        history.push("/quiz");
+      }
     } else {
       seterror(true);
     }
@@ -47,6 +53,8 @@ function ForecastProvider({ children }) {
           setcategory,
           setdifficulty,
           setname,
+          score,
+          setscore,
           name,
           category,
           difficulty,
@@ -59,6 +67,9 @@ function ForecastProvider({ children }) {
           setindex,
           index,
           answers,
+          loading,
+          setloading,
+          setquestions,
         }}
       >
         {children}
