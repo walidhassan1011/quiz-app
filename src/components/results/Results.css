@@ -25,3 +25,11 @@
   letter-spacing: 2px;
   font-weight: 700;
 }
+@media only screen and (max-width: 768px) {
+  .main-results h1 {
+    font-size: 2rem;
+  }
+  .main-results button {
+    width: 80%;
+  }
+}

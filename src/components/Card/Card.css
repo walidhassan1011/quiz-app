@@ -1,8 +1,6 @@
 .card-frame {
-  /* background-color: blueviolet; */
-  /* background-color: #362706; */
   border: 10px solid gray;
-  /* padding: 10px; */
+
   width: 100%;
   height: 100%;
   text-align: center;
@@ -16,8 +14,6 @@
 }
 .score-category {
   color: black;
-  /* background-color: aqua; */
-  /* background-color: #362706; */
 
   margin: 10px;
   display: flex;
@@ -30,8 +26,6 @@
   font-size: 20px;
 }
 .question-frame {
-  /* background-color: #362706; */
-  /* border: 3px solid blue; */
   width: 100%;
 
   height: 70%;
@@ -106,8 +100,7 @@
   margin: 10px;
   outline: none;
   cursor: pointer;
-  /* border: 3px solid aqua; */
-  /* background-color: aqua; */
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -124,8 +117,6 @@
   letter-spacing: 2px;
 }
 .btn-frame {
-  /* background-color: brown; */
-
   width: 95%;
   display: flex;
   margin-top: 10px;
@@ -153,4 +144,12 @@
 }
 .nextcolor {
   background-color: dodgerblue;
+}
+@media only screen and (max-width: 768px) {
+  .card-frame {
+    border: none;
+  }
+  .answer-frame {
+    font-size: 0.9rem;
+  }
 }
