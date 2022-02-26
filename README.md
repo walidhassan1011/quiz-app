@@ -1,70 +1,63 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#Quiz App
 
-## Available Scripts
+this quiz app help people to test them knowledge with different type of categories and after answer the question it give them the right answer if its false
 
-In the project directory, you can run:
 
-### `npm start`
+## tools
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1- React
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2-axios
 
-### `npm test`
+3-material ui
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4-css3
 
-### `npm run build`
+5-react-dom v5
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6-react-icons
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- select categorie
+- choose the difficulty of questions
+- give the user a score of there right answers
+- give the correct_answer if the user choose false one
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Api used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+https://opentdb.com/api.php?amount=10&category=${9-32}&difficulty=${easy-hard-medium}&type=multiple
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## App 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1-landing page!
 
-### Code Splitting
+[landing page](https://user-images.githubusercontent.com/95965261/155845566-140015ef-02db-45be-aaa6-088f6e161892.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2-selecting
 
-### Analyzing the Bundle Size
+![landing page](https://user-images.githubusercontent.com/95965261/155845590-aefcaa80-76ee-4e3c-aa31-fe230a856d08.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+3-quiz page 
 
-### Making a Progressive Web App
+![landing page](https://user-images.githubusercontent.com/95965261/155845606-8b6c37f9-e9f8-45f8-88bd-124f04d36460.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4-quiz page 
 
-### Advanced Configuration
+![landing page](https://user-images.githubusercontent.com/95965261/155845624-610f0fff-ac95-4a2b-b85d-9cfeebcc2564.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+5-score board 
 
-### Deployment
+![landing page](https://user-images.githubusercontent.com/95965261/155845646-e05d6557-b6f6-4558-8790-82e035dd8cb7.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## take a look!!!!!!!!!!!!!!!
+CLICK TO TAKE A LOOK [QUIZ APP](https://sw--quiz--app.herokuapp.com/)
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
