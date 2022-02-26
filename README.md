@@ -1,8 +1,6 @@
-
 #Quiz App
 
 this quiz app help people to test them knowledge with different type of categories and after answer the question it give them the right answer if its false
-
 
 ## tools
 
@@ -18,9 +16,6 @@ this quiz app help people to test them knowledge with different type of categori
 
 6-react-icons
 
-
-
-
 ## Features
 
 - select categorie
@@ -32,8 +27,7 @@ this quiz app help people to test them knowledge with different type of categori
 
 https://opentdb.com/api.php?amount=10&category=${9-32}&difficulty=${easy-hard-medium}&type=multiple
 
-
-## App 
+## App
 
 1-landing page!
 
@@ -43,21 +37,24 @@ https://opentdb.com/api.php?amount=10&category=${9-32}&difficulty=${easy-hard-me
 
 ![landing page](https://user-images.githubusercontent.com/95965261/155845590-aefcaa80-76ee-4e3c-aa31-fe230a856d08.png)
 
-3-quiz page 
+3-quiz page
 
 ![landing page](https://user-images.githubusercontent.com/95965261/155845606-8b6c37f9-e9f8-45f8-88bd-124f04d36460.png)
 
-4-quiz page 
+4-quiz page
 
 ![landing page](https://user-images.githubusercontent.com/95965261/155845624-610f0fff-ac95-4a2b-b85d-9cfeebcc2564.png)
 
-5-score board 
+5-score board
 
 ![landing page](https://user-images.githubusercontent.com/95965261/155845646-e05d6557-b6f6-4558-8790-82e035dd8cb7.png)
 
+## contact Me
+
+- [@twitter](https://twitter.com/Walidhassan111)
+- [@facebook](https://www.facebook.com/walid.hassan.10888938/)
+- [@linkedin](https://www.linkedin.com/in/walid-hassan-a744461a7)
 
 ## take a look!!!!!!!!!!!!!!!
-CLICK TO TAKE A LOOK [QUIZ APP](https://sw--quiz--app.herokuapp.com/)
----
 
-
+## CLICK TO TAKE A LOOK [QUIZ APP](https://sw--quiz--app.herokuapp.com/)
