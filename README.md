@@ -31,7 +31,7 @@ https://opentdb.com/api.php?amount=10&category=${9-32}&difficulty=${easy-hard-me
 
 1-landing page!
 
-[landing page](https://user-images.githubusercontent.com/95965261/155845566-140015ef-02db-45be-aaa6-088f6e161892.png)
+![landing page](https://user-images.githubusercontent.com/95965261/155845566-140015ef-02db-45be-aaa6-088f6e161892.png)
 
 2-selecting
 
