@@ -57,4 +57,4 @@ https://opentdb.com/api.php?amount=10&category=${9-32}&difficulty=${easy-hard-me
 
 ## take a look!!!!!!!!!!!!!!!
 
-## CLICK TO TAKE A LOOK [QUIZ APP](https://sw--quiz--app.herokuapp.com/)
+## CLICK TO TAKE A LOOK [QUIZ APP](https://quiz-app-zeta-one.vercel.app/)
